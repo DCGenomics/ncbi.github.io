@@ -6,8 +6,6 @@ body {
   color:#535353;
   font-weight:300;
   background:#f1f1f1;
-
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,20 +24,17 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   color: #494949;
-
 }
 
 h7 {
-font-size:12px;
-
+  font-size:12px;
 }
 
 h2 {
   font-size:16px; font-style:italic;color:#535353;
   border-bottom:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding-bottom:20px;
-
+  border-width:1px 0;
+  padding-bottom:20px;
 }
 
 h3, h4, h5, h6 {
@@ -53,8 +48,7 @@ a {
 }
 
 a:hover {
-text-decoration:underline;
-
+  text-decoration:underline;
 }
 
 a small {
@@ -63,6 +57,26 @@ a small {
   margin-top:-0.6em;
   display:block;
 }
+
+.res_logo h2.res_tagline {
+  display: block;
+  font-size: 85%;
+  color: #444;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: arial, helvetica, clean, sans-serif;
+}
+
+
+
+
+
+
+
+
+
 
 .wrapper {
   width:1100px;
@@ -88,20 +102,18 @@ blockquote {
   zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-
 #info {
-max-width:400px;
-display: inline-block;
-float:left;
-padding-right: 25px;
+  max-width:400px;
+  display: inline-block;
+  float:left;
+  padding-right: 25px;
 }
 
 #side {
-width:200px;
-display: inline-block;
-float:left;
+  width:200px;
+  display: inline-block;
+  float:left;
 }
-
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
@@ -110,13 +122,12 @@ code, pre {
 }
 
 pre {
-
   padding:4px 8px;
   background: #f8f8f8;
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
-   color:#08c;
+  color:#08c;
 }
 
 table {
@@ -142,21 +153,20 @@ th {
 img {
   max-width:100%;
   border:none;
-outline:none;
+  outline:none;
 }
 
 td img {
-
- box-shadow: 3px 3px 2px #888888;
+  box-shadow: 3px 3px 2px #888888;
 }
 
 section img {
- box-shadow: 3px 3px 2px #888888;
+  box-shadow: 3px 3px 2px #888888;
 }
 
-img a{
-border:none;
-outline:none;
+img a {
+  border:none;
+  outline:none;
 }
 
 header {
@@ -167,7 +177,7 @@ header {
 }
 
 header h3 {
-margin:5px;
+  margin:5px;
 }
 
 header ul {
@@ -208,35 +218,34 @@ header ul a {
 }
 
 header p {
-margin-left:20px;
-margin:0 20px 5px;
-
+  margin-left:20px;
+  margin:0 20px 5px;
 }
-
 
 .view a {
-color:#494949;
-
+  color:#494949;
 }
+
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 .clearfix { display: inline-block; }
+
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
 
 a.current {
-color: #08C;
-font-weight: bold;
+  color: #08C;
+  font-weight: bold;
 }
-
 
 strong {
   color:#222;
@@ -265,22 +274,26 @@ section {
   padding:30px 15px ;
   background:#fff;
   border: 1px solid;
-border-color: #e5e5e5 #dbdbdb #d2d2d2;
--webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
--moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -khtml-border-radius:3px;
+  border-color: #e5e5e5 #dbdbdb #d2d2d2;
+  -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -o-border-radius:3px;
+  -khtml-border-radius:3px;
 }
 
 
 section a {
-color: #08c;
-font-weight:normal;
+  color: #08c;
+  font-weight:normal;
 }
 
 section p a {
-color: #08c;
-font-weight:normal;
+  color: #08c;
+  font-weight:normal;
 }
 
 #home {
@@ -291,53 +304,53 @@ font-weight:normal;
   -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -khtml-border-radius:3px;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -o-border-radius:3px;
+  -khtml-border-radius:3px;
   margin: 0px;
 }
 
 .imageBox {
-		position: relative;
-		float: right;
-		width:100px;
-		}
-		.imageBox .hoverImg {
-			position: absolute;
-			left: 0;
-			top: 0;
-			display: none;
-
-	}
-		.imageBox:hover .hoverImg {
-			display: block;
-
-		}
-
-		div.item {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    /* To horizontally center images and caption */
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    width: 120px;
+  position: relative;
+  float: right;
+  width:100px;
 }
-img {
 
-
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
 }
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+div.item {
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 120px;
+}
+
 .caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
-    font-size:10px;
-    }
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+  font-size:10px;
+}
 
 #foot {
-background:transparent;
-border: none;
-margin-top:25px;
-padding:0px 15px ;
-box-shadow:none;
-
+  background:transparent;
+  border: none;
+  margin-top:25px;
+  padding:0px 15px ;
+  box-shadow:none;
 }
 
 small {
@@ -360,7 +373,6 @@ footer {
 
 
 @media print, screen and (max-width: 960px) {
-
   div.wrapper {
     width:auto;
     margin:0;

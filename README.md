@@ -82,5 +82,5 @@ https://github.com/mojombo/jekyll
 
 ## Generate the site and serve
 
-- `jekyll serve --baseurl ''` (or whatever base url you will be using, e.g. '/DeveloperPortal')
+- `jekyll serve --baseurl ''` (or whatever base url you will be using, e.g. '/ncbi-portal')
 - Browse to [localhost:4000](http://localhost:4000) to view the site
